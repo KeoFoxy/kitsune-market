@@ -1,8 +1,9 @@
+import { HTag } from "../../components";
 
 export default function Home() {
   return (
     <>
-      Hello
+      <HTag tag='h1'>Text</HTag>
     </>
   )
 }
