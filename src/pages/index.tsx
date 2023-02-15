@@ -4,8 +4,8 @@ export default function Home() {
   return (
     <>
       <HTag tag='h1'>Text</HTag>
-      <Button appearance="primary" className="Super">Button</Button>
-      <Button appearance="ghost">Ghost</Button>
+      <Button appearance="primary" arrow="right">Button</Button>
+      <Button appearance="ghost" arrow="down">Ghost</Button>
     </>
   )
 }
